@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 200px;
+    background-color: rgb(206, 148, 206);
+
+}
+
+h1 , a {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+#banner{
+    height: 350px;
+    background-color: rgb(207, 188, 207);
+    background-image: url("fon.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#banner > div {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+}
+
+#banner > div h2 {
+    color: rgb(206, 148, 206);
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,0.75);
+}
+
+#serv {
+    height: 200px;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 16px 200px;
+    display: flex; 
+}
+
+#serv > div { 
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+#uno{
+    background-image: url("light.jpg");
+}
+#dos{
+    background-image: url("lupa.jpg");
+}
+#tres{
+    background-image: url("art.jpg");
+}
